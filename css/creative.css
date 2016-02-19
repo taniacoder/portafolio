@@ -1,0 +1,147 @@
+/* Inserta tu codigo CSS aqui */
+.bg-img {
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+nav {
+	padding-top: 
+}
+.row {
+  margin-left: 0;
+  margin-right: 0; 
+}
+header{
+  width: 100%;
+}
+
+nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+nav ul li{
+  display: inline-block;
+}
+li:first-child{
+  border-left: none;
+}
+.navbar {
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  font-size: 14px;
+}
+.navbar-defoult {
+	
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	font-weight: bold;
+	color: #fff;
+}
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+
+/**/
+
+.hi {
+	font-size: 40px;
+	font-weight: bold;
+	padding: 14% 25% 0;
+	
+}
+.raya {
+	width: 40px;
+	height: 4px;
+	background-color: #F05F40;
+	border-top: none;
+}
+.info {
+	padding:0 25%;
+}
+.butoon {
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	padding: 5px 12px;
+	background-color: #F05F40;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 2% 0 12%;
+	text-decoration: none;
+}
+/*SOBRE MI*/
+.sobre-mi {
+	background-color: #F05F40;
+	padding: 2% 0 5%;
+}
+.raya-w {
+	width: 40px;
+	height: 4px;
+	background-color: #fff;
+	border-top: none;
+}
+.sobre-mi p {
+	padding: 0 26%;
+}
+/*servicios*/
+.servicios {
+	padding: 2% 0 5%;
+}
+.box-4 {
+	padding: 1% 0%;
+}
+.servicios i {
+	color: #F05F40;
+}
+/*fotos*/
+.fotos .col-lg-4 {
+	padding: 0px; 
+}
+.fotos img {
+	width: 100%;
+}
+.butoon-w {
+	font-size: 10px;
+	color: #333;
+	text-align: center;
+	padding: 5px 12px;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 1% 0;
+	text-decoration: none;
+}
+.git {
+	background-color: #333;
+	color: #fff; 
+	padding: 2%; 
+}
+.fotos h3 {
+	margin: 0 1%;
+}
+/*footer*/
+footer {
+	padding: 3% 0 5%;
+}
+.listo {
+	padding: 0 25%;
+}
+
+/*AQUI COMIENZAN LOS MEDIAS QUERIES DE LA PAGINA*/
+@media screen and (min-width: 299px) and (max-width: 768px) {
+
+.navbar {
+  background-color: rgba(0,0,0,0.4);
+  
+}
