@@ -140,3 +140,6 @@ strong {
 .color-gris6 {
 	color: #363C46;
 }
+a {
+	text-decoration: none !important;
+}
